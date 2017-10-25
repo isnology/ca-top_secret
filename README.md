@@ -1,24 +1,12 @@
-# README
+# Top Secret
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Models
 
-Things you may want to cover:
+### User
+- email unique string
 
-* Ruby version
+### Company
+- name string
+- domain string  e.g. tesla.com
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
