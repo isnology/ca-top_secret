@@ -9,4 +9,11 @@
 - name string
 - domain string  e.g. tesla.com
 
+### Document
+- company references
+- name string
+- context string
+
+### Permissions
+- 
 
