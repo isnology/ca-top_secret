@@ -1,5 +1,5 @@
 class DocumentsController < ApplicationController
-  before_action :authorise_document, only: [:show, :edit, :update]
+  before_action :set_document, only: [:show, :edit, :update]
   
   def index
     if signed_in?
@@ -31,7 +31,7 @@ class DocumentsController < ApplicationController
       params.require(:document).permit(:name, :control)
     end
   
-    def authorise_document
+    def set_document
       @document = Document.find(params[:id])
       authorize @document
     end
