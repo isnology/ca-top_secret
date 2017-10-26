@@ -15,5 +15,7 @@
 - context string
 
 ### Permissions
-- 
+- company:references
+- user:references
+- can_write
 

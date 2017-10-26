@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20171025232952) do
   create_table "documents", force: :cascade do |t|
     t.bigint "company_id"
     t.string "name"
-    t.text "context"
+    t.text "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["company_id", "name"], name: "index_documents_on_company_id_and_name", unique: true
